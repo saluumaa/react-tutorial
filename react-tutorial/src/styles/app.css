@@ -58,4 +58,47 @@
     margin-top: 5px;
     display: block;
   }  
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  /* Active route */
+  .active {
+    color: #bbff00;
+  }
+  
+.navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 50px;
+  color: #fff;
+  height: 70px;
+}
+
+.navbar ul  {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+}
+
+.navbar li {
+  list-style: none;
+  color: #fff;
+  padding-left: 25px;
+}
+
+.about_list li {
+  list-style: none;
+}
+
+.about_list .navlink {
+  color: #b80c03;
+  text-decoration: underline;
+}
   

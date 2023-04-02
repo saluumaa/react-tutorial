@@ -1,8 +1,6 @@
 import TodoItem from '@/components/TodoItem';
 const TodosList = ({ todosProps, setTodos, delTodo, setUpdate }) => {
 
-
-
 	return (
       <ul>
         {todosProps.map((todo) => (
